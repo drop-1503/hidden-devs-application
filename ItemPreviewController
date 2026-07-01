@@ -14,7 +14,6 @@ local Promise = require(ReplicatedStorage:WaitForChild("Packages"):WaitForChild(
 
 local ItemPreviewController = Knit.CreateController { Name = "ItemPreviewController" }
 
--- AssetTypeId -> type name, so we know where to aim the cam
 local AssetTypes = require(ReplicatedStorage.Information.AssetTypes)
 
 local Service
